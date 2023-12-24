@@ -31,8 +31,8 @@ def generate_blog(query, word_count, genre):
     Also, come with an appropriate title for the blog and set it at the top in bold letters.
     
     Example: 
-    ## **YOUR TITLE**
-    YOUR BLOG     
+    ## **YOUR TITLE**    
+    YOUR BLOG COME HERE     
     """
 
     prompt = PromptTemplate(
