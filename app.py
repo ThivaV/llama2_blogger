@@ -9,14 +9,6 @@ from langchain.prompts import PromptTemplate
 def load_model():
     """load the llama2 model"""
 
-    # llama2_model_path = "models/llama-2-7b-chat.ggmlv3.q8_0.bin"
-    # model = CTransformers(
-    #     model=llama2_model_path,
-    #     model_type="llama",
-    #     config={"max_new_tokens": 256, "temperature": 0},
-    # )
-    # return model
-
     llama2_model = "TheBloke/Llama-2-7B-Chat-GGML"
     model_variant = "llama-2-7b-chat.ggmlv3.q8_0.bin"
     model = CTransformers(
@@ -34,7 +26,7 @@ def generate_blog(query, word_count, genre):
 
     template = """
     As a you a blogger, please write a blog for the topic {query} and under gener {genre}.
-    Please write the blog in {no_of_words} words.
+    Please write the blog in {word_count} words.
     Your blog strictly should be in markdown language.
     Also, come with an appropriate title for the blog and set it at the top in bold letters.
     
