@@ -1,9 +1,8 @@
 ---
-title: Llama2 Blogger
+title: llama2 blogger
 emoji: 📝
 colorFrom: yellow
 colorTo: red
-python_version: 3.9.13
 sdk: streamlit
 sdk_version: 1.29.0
 app_file: app.py
