@@ -1,4 +1,4 @@
-name: Sync to Hugging Face hub
+name: Sync to HuggingFace hub
 on:
   push:
     branches: [main]
@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://thivav:$HF_TOKEN@huggingface.co/spaces/thivav/llama2-blogger-app main
+        run: git push --force https://thivav:$HF_TOKEN@huggingface.co/spaces/thivav/llama2-blogger main
