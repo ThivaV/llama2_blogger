@@ -1,5 +1,5 @@
 ---
-title: Llama2 Blogger App
+title: Llama2 Blogger
 emoji: 📝
 colorFrom: blue
 colorTo: purple
