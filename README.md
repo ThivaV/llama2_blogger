@@ -9,8 +9,12 @@ app_file: app.py
 pinned: false
 ---
 
-# Blogger
+# The Blogger 📝
 
-LLAMA2 - Article Generation
+[The Blogger 📝 - Playground](https://huggingface.co/spaces/thivav/llama2-blogger)
 
-[The TheBloke/Llama-2-7B-Chat-GGML llama2 model used](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML)
+This application generates an article based on your query and gener.
+
+- For **The Blogger** following technologies were used:
+    - **llama2** with **langchain** used to generate the blog.
+        - [The TheBloke/Llama-2-7B-Chat-GGML llama2 model used](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML)
